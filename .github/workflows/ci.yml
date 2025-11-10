@@ -34,6 +34,7 @@ jobs:
       with:
         name: coverage-report
         path: coverage/
+        overwrite: true
         
   deploy:
     needs: test
